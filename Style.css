@@ -1,0 +1,199 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    width: 100vw;
+    background-color: #00000056 ;
+    overflow-x: hidden;
+}
+/* .nav-items .nav-item-ul{
+    display: none;
+} */
+.header-nav{
+    position: fixed;
+    z-index: 1;
+    margin-top: 0;
+}
+
+.parent-nav{
+    margin-top: 0;
+    width: 100vw;
+    height: 100%;
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+   align-items: center !important;
+   justify-content: center !important;
+   
+}
+.navbar-user-name{
+    width: 40%;
+ 
+}
+.navbar-user-name a{
+    text-decoration: none;
+    color: white !important;
+    font-family: sans-serif !important;
+    font-size: 25px !important;
+}
+.nav-items-lap{
+    margin-left: auto;
+    width: 50%;
+}
+.toggler-btn-container button{
+    display: none;
+}
+
+.nav-items-lap a{
+    display: block;
+    display: flex;
+}
+.nav-item a{
+    display: none !important;
+
+}
+.lap-item{
+    width: 100%;
+    min-height: 20px;
+    padding: 1px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    text-decoration: none;
+}
+.lap-item:hover{
+    background-color: rgb(92, 70, 70);
+    border-radius: 5px;
+    color: white;
+    text-decoration: none;
+}
+
+/* Home Section */
+
+.home-section{
+    width: 100%;
+    min-height: 50vh;
+    background: url('pexels-pixabay-53990.jpg') ;
+    background-size: cover;
+    background-position: center;
+    
+    display: flex;
+    align-items: center;
+    justify-content: space-between !important;
+}
+.name-quote{
+    display: flex;
+    flex-direction: column;
+    width: 40% !important;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.7) !important; /* Use rgba for transparency */
+    align-items: center;
+    justify-content: center;
+}
+.dp-image{
+    margin-top: 50px;
+    margin-right: auto;
+    width: 40% !important;
+    height: 100%;
+    background-color: transparent;
+    transition: 1s ease;
+}
+.dp-image img:hover{
+    box-shadow:
+1px 1px #373737,
+2px 2px #373737,
+3px 3px #373737,
+4px 4px #373737,
+5px 5px #373737,
+6px 6px #373737;
+-webkit-transform: translateX(-3px);
+transform: translateX(-3px);
+transition: .5s ease;
+}
+.my-name{
+        width: 100%;
+        min-height: 10px;
+        display: flex;
+        background-color: transparent !important;
+        margin-top: 80px;
+        align-items: center;
+        justify-content: center;
+        color: white;
+}
+.my-quote{
+    width: 100%;
+    min-height: 10px;
+    display: flex;
+    align-items: center;
+    align-items: center;
+    justify-content: center;
+    background-color: transparent !important;
+}
+.dp-image img{
+    width: 200px;
+    height: 100%;
+    
+}
+.education-image-div{
+    padding: 10px;
+    
+}
+
+.education-image-div img{
+    width: 400px;
+    height: 100%;
+}
+.thumbnail-img{
+    transition: 1s ease;
+    }
+.thumbnail-img:hover{
+    -webkit-transform: scale(1.2);
+    -ms-transform: scale(1.2);
+    transform: scale(1.2);
+    transition: 1s ease;
+}
+.education-details{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.education-details-list{
+    list-style-type: none;
+    font-size: 20px;
+}
+.sentence{
+    font-weight: 700;
+}
+.btn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+.btn-width{
+    width: 100px;
+}
+.instagram{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+.instagram a{
+
+    color: red;
+    cursor: pointer;
+}
+.linkedIn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+.linkedIn a{
+    color: blue;
+    cursor: pointer;
+}
